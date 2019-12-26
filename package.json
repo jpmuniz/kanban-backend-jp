@@ -1,0 +1,23 @@
+{
+  "name": "backendnatahouse",
+  "version": "1.0.0",
+  "description": "api kanban board",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "João Pedro",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0",
+    "boom": "^7.3.0",
+    "dotenv": "^8.2.0",
+    "pg": "^7.14.0",
+    "pg-hstore": "^2.3.3",
+    "vision": "^5.4.4"
+  },
+  "devDependencies": {
+    "sequelize": "^5.21.3",
+    "sucrase": "^3.10.1"
+  }
+}
